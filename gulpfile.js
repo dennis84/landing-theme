@@ -13,7 +13,7 @@ gulp.task('stylesheets', function() {
 gulp.task('watch', function() {
   gulp.watch([
     'index.html',
-    'stylesheets/*'
+    'stylesheets/*.less'
   ], ['stylesheets'])
 })
 
