@@ -1,0 +1,33 @@
+@import "colors.less";
+@import url(http://openfontlibrary.org/face/fantasque-sans-mono);
+
+pre, code {
+  background: lighten(@base03, 5%);
+  color: lighten(@base0, 10%);
+  border: 0;
+  font-size: 18px;
+  font-family: 'Fantasque Sans Mono';
+  text-shadow: none;
+}
+
+pre {
+  overflow-x: auto;
+}
+
+pre code {
+  overflow-wrap: normal;
+  white-space: pre;
+}
+
+code > span.kw { color: @blue; }
+code > span.dt { color: @base1; }
+code > span.dv { color: @base1; }
+code > span.bn { color: @base1; }
+code > span.fl { color: @base1; }
+code > span.ch { color: @base1; }
+code > span.st { color: @violet; }
+code > span.co { color: @base0; font-style: italic; }
+code > span.ot { color: @base1; }
+code > span.al { color: @base1; }
+code > span.fu { color: @base1; }
+code > span.er { color: @base1; }
